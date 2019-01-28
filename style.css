@@ -1,0 +1,158 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+  
+body {
+    /*background-color: #907090;*/
+    font-family: "Tahoma";
+    font-size: 16px;
+
+}
+  
+.clear {
+    clear: both;
+}  
+
+.container {
+    width: 600px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .header {
+    background-color: #9998E8;
+    margin-bottom: 30px;
+}
+
+.container .header h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.container .box {
+    margin-bottom: 50px;
+}
+
+.container .box input[type="text"] {
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    font-size:18px;
+    color: #FFB6C1;
+    border-color: #FFB6C1;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFB6C1;
+    opacity: 0.6;
+  }
+
+.container .box button{
+    /* background-color: #4CAF50; */
+    background-color: #FFB6C1;
+    border: none;
+    color: white;
+    padding: 10px 12px 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#clearButton{
+    font-size: 18px;
+    background-color: #9998E8;
+}
+
+.container .box h3{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    background-color: #9998E8;
+}
+
+.container .box h3{
+    margin-bottom: 30px;
+
+}
+
+.todo-list li a {
+    float: right;
+}
+
+.todo-list img {
+    color: white;
+}
+
+
+li {
+    display: block;
+    background-color: #FFB6C1;
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .container .header {
+        margin-bottom: 24px;
+    }
+    
+    .container .header h2 {
+        font-size: 32px;
+    }
+
+    .container .box {
+        margin-bottom: 50px;
+    }
+    
+    .container .box input[type="text"] {
+        padding: 6px 10px 6px 10px;
+        font-size:16px;
+    }
+    
+    .container .box button{
+        padding: 6px 10px 6px 10px;
+        font-size: 17px;
+    }
+    
+    #clearButton{
+        font-size: 17px;
+    }
+    
+    .container .box h3{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    
+    li {
+        padding: 6px 10px 6px 10px;
+        margin-top: 20px;
+    }
+
+    li:first-child{
+        margin-top: 0;
+    }
+
+  }
